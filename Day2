@@ -1,0 +1,49 @@
+gedit xxx.py  用 gedit 打开 xxx.py 文件；如果该文件不存在，则 创建 它并打开
+
+循环
+for循环
+语法：
+for itme in iterable:
+for: 关键字
+itme:元素
+in:关键字
+iterable:集合
+
+while 循环
+条件循环，满足条件，停止循环
+语法
+while condition:
+while : 关键字
+condition: 条件
+
+循环关键字
+break 表示停止当前循环
+
+contiune 表示跳过当前循环轮次，执行下一轮循环 
+
+
+函数
+range() 函数：使用 range(x) 函数，可以生成一个从 0 到 x-1 的整数序列
+例：打印 0 到 9 的数
+for a in range(10):
+    print(a)
+range(a,b) 取某个区间的数:
+例：
+for a in range(1,11):
+    print(a)
+注：range(a,b) 包头不包尾，尾数要 + 1
+
+format() 函数
+实现插入效果
+格式化数字
+for a in range(1,101):
+    if a % 7 == 0 or a % 10 == 7 or a // 10 == 7:
+        continue
+    else:
+        print(a)
+
+
+
+        
+
+
